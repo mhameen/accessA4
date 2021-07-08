@@ -95,27 +95,27 @@ button{
         flex-direction: row-reverse;
      }
     .t1{
-        margin-left:-910px;
+        margin-left:-110%;
     }
     
     .t2{
-        margin-left:-835px;
+        margin-left:-95%;
         line-height: 60px;
     }
     
     .t3{
-        margin-left:-910px;
+        margin-left:-110%;
     }
     .para{
-        margin-left:-530px;
+        margin-left:-30%;
         max-width: 400px;
        text-align: left;
     }
     .logo{
-        margin-left:125px;
+        margin-left:13%;
     }
     input{
-        margin-left: -530px;
+        margin-left: -30%;
     }
   
     
