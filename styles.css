@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    margin: 40px;
+}
+.bg{
+    background-image: url("./images/bg-pattern-desktop.svg") no-repeat ;
+    width: 100%;
+    height: 100vh;
+}
+.image1{
+    display: block;
+    object-fit: contain;
+    width: 100%;
+}
+
+.image2{
+    display: none;
+}
+.t1{
+    margin-top: 70px;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;  
+    font-weight: 300;
+    text-align: center; 
+    letter-spacing: 10px;
+    color:hsl(0, 36%, 70%) ;
+}
+
+.t2{
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600; 
+    text-align: center; 
+    margin: 5px;
+    letter-spacing: 10px;
+}
+
+.t3{
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600; 
+    text-align: center; 
+    letter-spacing: 10px;
+}
+
+.para{
+    word-spacing: 2px;
+    line-height: 25px;
+    color:  hsl(0, 36%, 70%);
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    max-width: 320px;
+}
+input{
+    padding-left: 20px;
+    width: 280px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    margin-left:25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background:linear-gradient( 135deg,hsl(0, 0%, 100%), to hsl(0, 100%, 98%) );
+}
+button{
+    background:linear-gradient( 135deg,  hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+    height: 50px;
+    width: 70px;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-left: -60px;
+    border: none;
+    color: white; 
+}
+
+@media screen and (min-width: 1024px) {
+          
+    .image1{
+           display: none;
+    }
+    .image2{
+        display: block;
+        object-fit: contain;
+        width: 100%;
+        margin-top: -150px; 
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+     }
+    .t1{
+        margin-left:-910px;
+    }
+    
+    .t2{
+        margin-left:-835px;
+        line-height: 60px;
+    }
+    
+    .t3{
+        margin-left:-910px;
+    }
+    .para{
+        margin-left:-530px;
+        max-width: 400px;
+       text-align: left;
+    }
+    .logo{
+        margin-left:125px;
+    }
+    input{
+        margin-left: -530px;
+    }
+  
+    
+      
+}
