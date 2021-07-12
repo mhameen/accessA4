@@ -67,6 +67,7 @@ input{
     margin-bottom: 20px;
     background:linear-gradient( 135deg,hsl(0, 0%, 100%), to hsl(0, 100%, 98%) );
     position: relative;
+   
 }
 button{
     background:linear-gradient( 135deg,  hsl(0, 80%, 86%),hsl(0, 74%, 74%));
@@ -77,8 +78,8 @@ button{
     border: none;
     color: white; 
     position: absolute;
-    bottom: 175px;
-    left:370px;
+    bottom: -70px;
+    left: 250px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -120,7 +121,14 @@ button{
     input{
         margin-left: -30%;
     }
-  
+    button{
+        position: absolute;
+        bottom: 175px;
+        left:370px;
+    }
+    input{
+        position: relative;
+    } 
     
       
 }
