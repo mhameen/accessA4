@@ -66,6 +66,7 @@ input{
     margin-top: 40px;
     margin-bottom: 20px;
     background:linear-gradient( 135deg,hsl(0, 0%, 100%), to hsl(0, 100%, 98%) );
+    position: relative;
 }
 button{
     background:linear-gradient( 135deg,  hsl(0, 80%, 86%),hsl(0, 74%, 74%));
@@ -73,9 +74,11 @@ button{
     width: 70px;
     border-radius: 30px;
     font-size: 25px;
-    margin-left: -60px;
     border: none;
     color: white; 
+    position: absolute;
+    bottom: 175px;
+    left:370px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -87,7 +90,7 @@ button{
         display: block;
         object-fit: contain;
         width: 100%;
-        margin-top: -150px; 
+        margin-top: -130px; 
     }
     .container{
         width: 100%;
